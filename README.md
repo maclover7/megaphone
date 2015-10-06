@@ -29,6 +29,11 @@ require 'minitest/megaphone'
 
 Or run with just `TESTOPTS="--meg"` or `TESTOPTS="--megaphone"`
 
+After running all of your tests, just search for 'MEGAPHONE WAS HERE',
+and you'll have all of your failures available for easy reading!
+Megaphone will list the total number of failing tests, as well as the
+names of the failing tests! Isn't that awesome?
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
