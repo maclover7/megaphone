@@ -20,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Either require it in your `test_helper.rb`:
+
+```ruby
+require 'megaphone'
+require 'minitest/megaphone'
+```
+
+Or run with just `TESTOPTS="--meg"` or `TESTOPTS="--megaphone"`
 
 ## Development
 
