@@ -1,5 +1,5 @@
-require "megaphone/version"
+require 'minitest/megaphone_plugin'
 
-module Megaphone
-  # Your code goes here...
+class Megaphone
+  VERSION = "0.0.1"
 end
